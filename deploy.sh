@@ -11,7 +11,8 @@ git commit -m "$1"
 git push origin master
 
 # expenses.chodounsky.net
-REACT_APP_SHEET_ID=18uwYwUAVw0H5bhszMgAORmvAN2APxAtJI3FB-XH7Dzk npm run build
+# 1LuaH6zWG2WLPwbU7MHTbXta1wzIOPxc2MQ_aP5lS7hM
+REACT_APP_SHEET_ID=1LuaH6zWG2WLPwbU7MHTbXta1wzIOPxc2MQ_aP5lS7hM npm run build
 cp -a build/. production/
 cd production
 git add .
